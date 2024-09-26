@@ -6,4 +6,6 @@
 
 - Store your API keys in a `.env` file. 
 
+- Setup a chroma database which has the questions.
+
 - Run the `run.sh` file.
