@@ -1,6 +1,6 @@
 #!/bin/bash
 
 arg=$1
-arg=${arg:-app.py}
+arg=${arg:-frontend/app.py}
 
-PYTHONPATH="$HOME/gradio-frontend-ai-proq-gen:$PYTHONPATH" gradio "$arg"
+PYTHONPATH="$HOME/gradio-frontend-ai-prog-gen:$PYTHONPATH" gradio "$arg"
